@@ -11,6 +11,7 @@
     "lint:ts:fix": "eslint \"**/*.{ts,tsx}\" --fix",
     "lint:scss": "npx stylelint \"**/*.scss\"",
     "lint:scss:fix": "npx stylelint \"**/*.scss\" --fix",
+    "lint:all": "npm run lint:ts && npm run lint:scss",
     "preview": "vite preview"
   },
   "dependencies": {

@@ -3,9 +3,8 @@ import './App.scss';
 import { useState } from 'react';
 
 import viteLogo from '/vite.svg';
+import reactLogo from '@/assets/react.svg';
 import MOdal from '@/components/Modal/MOdal';
-
-import reactLogo from './assets/react.svg';
 
 function App() {
    const [count, setCount] = useState(0);
@@ -29,15 +28,7 @@ function App() {
 
          <p className="read-the-docs">Click on the Vite and React logos to learn more</p>
 
-         <MOdal
-            w={'asdasd'}
-            h={'asdasdsa'}
-            add={'asdasdsa'}
-            bottom={'asdasdas'}
-            top={'asdas'}
-            tosp={'asdas'}
-            tossp={'asdas'}
-         />
+         <MOdal w={'asdasd'} h={'asdasdsa'} add={'asdasdsa'} bottom={'asdasdas'} top={'1'} />
       </>
    );
 }
