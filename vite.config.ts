@@ -9,6 +9,7 @@ export default defineConfig({
          svgrOptions: {
             icon: true,
          },
+         include: '**/*.svg',
       }),
       react(),
    ],

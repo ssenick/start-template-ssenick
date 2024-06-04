@@ -1,8 +1,6 @@
-/// <reference types="vite/client" />
+/// <reference types="vite/client.d.ts" />
+/// <reference types="vite-plugin-svgr/client.d.ts" />
 
-declare module '*.png';
-declare module '*.jpg';
-declare module '*.jpeg';
 declare module '*.svg' {
    import { type FC, type SVGProps } from 'react';
    const content: FC<SVGProps<SVGElement>>;

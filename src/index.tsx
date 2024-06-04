@@ -1,12 +1,17 @@
-import './index.scss';
+import './app/styles/index.scss';
 
 import { createRoot } from 'react-dom/client';
+import { BrowserRouter } from 'react-router-dom';
 
-import App from './App.tsx';
+import App from '@/app/App.tsx';
 
 const container = document.getElementById('root');
 if (!container) throw new Error('Failed to mount the application, check the container!');
 
 const root = createRoot(container);
 
-root.render(<App />);
+root.render(
+   <BrowserRouter>
+      <App />
+   </BrowserRouter>,
+);
