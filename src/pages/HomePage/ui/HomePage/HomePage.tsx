@@ -1,7 +1,7 @@
 import { useCallback, useState } from 'react';
 
-import ReactImage from '@/assets/react.svg';
-import ViteImage from '@/assets/vite.svg';
+import ReactImage from '@/assets/react.svg?react';
+import ViteImage from '@/assets/vite.svg?react';
 import { classNames } from '@/helpers/classNames/classNames';
 
 import cls from './HomePage.module.scss';

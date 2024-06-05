@@ -9,7 +9,7 @@ export default defineConfig({
          svgrOptions: {
             icon: true,
          },
-         include: '**/*.svg',
+         include: '**/*.svg?react',
       }),
       react(),
    ],
@@ -18,6 +18,7 @@ export default defineConfig({
       open: true,
       host: '0.0.0.0',
    },
+   base: './',
    resolve: {
       alias: [{ find: '@', replacement: '/src' }],
    },
