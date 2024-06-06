@@ -3,8 +3,6 @@
 This project is a starter template for building React applications using Vite and TypeScript. Includes in
 yourself basic settings for ESLint, Prettier and Stylelint.
 
-## Project structure
-
 ## Installation
 
 To get started with this template, follow these steps:
