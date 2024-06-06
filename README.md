@@ -7,7 +7,9 @@ yourself basic settings for ESLint, Prettier and Stylelint.
 
 To get started with this template, follow these steps:
 
-1. Clone the repository:
+1. Create a project folder.
+
+2. Clone the repository:
 
 ```bash
 npx degit ssenick/start-template-ssenick . 
@@ -15,13 +17,13 @@ or
 npx degit ssenick/start-template-ssenick . --force
 ```
 
-2. Install dependencies:
+3. Install dependencies:
 
 ```bash
 npm run install
 ```
 
-3. Install dependencies:
+4. Install dependencies:
 
 ```bash
 npm run start
