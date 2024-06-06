@@ -12,6 +12,7 @@
       "lint:scss": "npx stylelint \"**/*.scss\"",
       "lint:scss:fix": "npx stylelint \"**/*.scss\" --fix",
       "lint:all": "npm run lint:ts && npm run lint:scss",
+      "prettier": "npx prettier --write \"**/*.{ts,tsx,json}\"",
       "preview": "vite preview"
    },
    "dependencies": {

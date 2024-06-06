@@ -1,30 +1,42 @@
-# React + TypeScript + Vite
+# Start Template Ssenick
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a starter template for building React applications using Vite and TypeScript. Includes in
+yourself basic settings for ESLint, Prettier and Stylelint.
 
-Currently, two official plugins are available:
+## Project structure
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Installation
 
-## Expanding the ESLint configuration
+To get started with this template, follow these steps:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+1. Clone the repository:
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: "latest",
-    sourceType: "module",
-    project: ["./tsconfig.json", "./tsconfig.node.json"],
-    tsconfigRootDir: __dirname,
-  },
-};
+```bash
+git clone <Your repository URL>
+cd <your folder name>
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+2. Install dependencies:
+
+```bash
+npm run install
+```
+
+3. Install dependencies:
+
+```bash
+npm run start
+```
+
+## Scripts
+
+- `npm run start` - Running a frontend project on webpack dev server
+- `npm run build` - Build in prod mode
+- `npm run lint:ts` - Checking ts files with es linter
+- `npm run lint:ts:fix` - Fix ts files with es linter
+- `npm run lint:scss` - Checking style scss files with ES linter
+- `npm run lint:scss:fix` - Fix scss style files with ES linter
+- `npm run prettier` - Format all files with Prettier
+- `npm run preview` - Preview of the assembled project.
+
+----
