@@ -20,7 +20,7 @@ npx degit ssenick/start-template-ssenick . --force
 3. Install dependencies:
 
 ```bash
-npm run install
+npm  install
 ```
 
 4. Install dependencies:
