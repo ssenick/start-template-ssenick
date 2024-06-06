@@ -10,8 +10,9 @@ To get started with this template, follow these steps:
 1. Clone the repository:
 
 ```bash
-git clone <Your repository URL>
-cd <your folder name>
+npx degit ssenick/start-template-ssenick . 
+or
+npx degit ssenick/start-template-ssenick . --force
 ```
 
 2. Install dependencies:
